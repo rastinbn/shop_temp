@@ -1,0 +1,29 @@
+@font-face {
+
+    font-family: Vazirmatn ;
+    src: url("../../node_modules/vazirmatn/Vazirmatn-font-face.css");
+}
+body{
+    font-family: Vazirmatn , sans-serif;
+}
+
+.swiper {
+    width: 90%;
+    height: 400px;
+    padding-bottom: 100px;
+
+}
+
+.swiper-slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.swiper-slide img{
+    border-radius: 12px;
+}
+.bb{
+    background-color: rgb(44, 44, 44);
+}
+
