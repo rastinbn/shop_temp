@@ -11,6 +11,7 @@ body{
     width: 90%;
     height: 400px;
     padding-bottom: 100px;
+    position: relative;
 
 }
 
@@ -23,7 +24,15 @@ body{
 .swiper-slide img{
     border-radius: 12px;
 }
-.bb{
-    background-color: rgb(44, 44, 44);
+
+.category-box{
+    width:150px;
+    height:150px;
+    border:2px solid gray;
+    padding:8px;
+    border-radius:12px;
+    overflow:hidden;
 }
+
+
 
